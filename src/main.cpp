@@ -1,5 +1,9 @@
 #include <Arduino.h>
-#include "..\.pio\libdeps\megaatmega2560\MAVLink v2 C library\common\mavlink.h"
+//#include "..\.pio\libdeps\megaatmega2560\MAVLink v2 C library\common\mavlink.h"
+#include <MAVLink.h>
+#include <OneWire.h>
+
+
 
 #define CubeOrangeSerial2 Serial1
 
