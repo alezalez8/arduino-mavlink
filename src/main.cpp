@@ -25,6 +25,8 @@ int leds_status = 0;
 
 
 
+
+
 void Mav_Request_Data() // сообщает ПК, какой набор данных и с какой скоростью я хочу получать
 {
   mavlink_message_t msg;               // для формирования сообщений MAVLink.
@@ -179,7 +181,7 @@ void setup() {
 }
 
 void loop() {  
-  // MAVLink
+  // MAVLink description
   /* The default UART header for your MCU */
   //int sysid = 1;                  ///< ID 20 for this airplane. 1 PX, 255 ground station
   //int compid = 205;               ///< The component sending the message, was 158
